@@ -9,6 +9,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 .container {
+    width:100%;
     display: inline-flex;
     flex-direction: column;
 }
@@ -18,8 +19,8 @@ h1 {
 }
 .car_holder {
     display: inline-flex;
-    flex-direction: row wrap;
-    height: 200px;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 50px;
     margin-right: 10px;
     margin-left: 10px;
@@ -100,15 +101,3 @@ p {
     bottom: 10px;
     right: 10px;
 }
-
-.poty {
-    background-color: gray;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    font-size: 2rem;
-    box-sizing: border-box;
-    position: fixed;
-    bottom: 50vh;
-    right: 5vw;
-    box-shadow: 2px 2px 5px 1px gray
